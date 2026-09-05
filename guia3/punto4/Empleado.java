@@ -12,6 +12,9 @@ public abstract class Empleado{
         this.legajo = proximoLegajo;
         proximoLegajo++;
     }
+    public String getNombre(){
+        return this.nombre;
+    }
 
     public abstract double calcularSueldo();
 
