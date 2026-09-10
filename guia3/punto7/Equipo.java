@@ -1,5 +1,5 @@
 package guia3.punto7;
-import java.lang.reflect.Array;
+import java.util.Iterator;
 import java.util.*;
 public class Equipo {
     private String nombre;
